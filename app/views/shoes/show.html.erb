@@ -7,13 +7,12 @@
 
 <p>
   <strong>Picture:</strong>
-  <%= @shoe.picture %>
+  <%= image_tag(@shoe.picture_url, :width => 600) if  @shoe.has_picture_upload? %>
 </p>
 
 <p>
   <strong>Designer:</strong>
-  <%= image_tag(@shoe.picture_url, 
-    :width => 400) if @shoe.picture.present? %>
+  <%= image_tag(@shoe.picture_url, :width => 400) if @shoe.picture.present? %>
 </p>
 
 <p>

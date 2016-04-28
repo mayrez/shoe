@@ -15,6 +15,11 @@ class ShoesController < ApplicationController
   # GET /shoes/new
   def new
     @shoe = Shoe.new
+    if params[:key]
+      @shoe.picture_key = params[:key]
+    else
+      @shoe.picture.success_action_redirect = new_shoe_url
+    end
   end
 
   # GET /shoes/1/edit
@@ -69,6 +74,6 @@ class ShoesController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def shoe_params
-      params.require(:shoe).permit(:name, :picture, :designer, :description, :color)
+            params.require(:shoe).permit(:name, :picture, :designer, :description, :color, :picture_key)
     end
 end
