@@ -16,10 +16,3 @@ notifications:
   email:
     on_success: always
     on_failure: always
-deploy:
-  provider: heroku
-  api_key:
-    secure: KmOPaMlEn6umeBmQU6LlgyrOqDgTQMYudKnHiPEK3OTa6jpVZbtB/Vj7OXtBBDS2XIGyZuTsGE/mj1Rq/T0atByAe1/7C6jJhvn8Q34VmdcFUmSK3W2x1Up3vdVmub8TnVk2Gfv9z11Rw0N/Io/nP+CfsCZrHtyG7MDXyVRTjnDGdKDAg0Hy6su/VTS38ALCl8ycQOIR5K8+2HbR3E6yft6BPmSSUEWhiIx/kxF3zOyqfZaCz+mRSKeBRvZHNRP35kA1yAlGCMgnKVbZbb3ukhlWV8t9PNuQJHmayhwoflhpvLjcam9ZQyitqQi+2sT6T3wpfHSVIuoVMDDEJJWTP8KEFVqSffrHPBC+NIWEwTCw+aeY8n3q/C+b5bw3gB9p+biVbkOZvPn62gZx82QtXIBY2Ouiea022BnfhqU4d3sHONa3USYp//aTXDMw4gjA4qU2dFtbwMkrEKJ2RFDmCO4nuHj4QX94Ed9z/rkNXVgBvUZAnvGrBk9D8mYGS/GUCFKC2LAw6Vfh+GUylwP+SUzycslFypZPpyHsfctfkTeys7bPJGvSJ7Vv1B/fcqqBBrrO+28Sa/BqQEqbFJSas4dDpLv/GvYoBaO5EOqA3E8ILn0zw8ESpeqRLtE1xO8cZQYOlNUtL5GGKrj6/eUyyaNX8p3veRwWZFAMy+kexoo=
-  app: shoeaddict
-  on:
-    repo: carmelocuenca/shoeaddict_app
