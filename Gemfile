@@ -60,3 +60,4 @@ group :production do
 end
 
 gem 'puma'
+gem 'carrierwave'
