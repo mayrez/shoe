@@ -62,3 +62,4 @@ end
 gem 'puma'
 gem 'carrierwave'
 gem 'mini_magick'
+gem "fog"
